@@ -272,7 +272,7 @@ public class ContactsProvider {
                             contact.birthday = new Contact.Birthday(year, month, day);
                         }
                     } catch (NumberFormatException ex) {
-                        Log.w('ContactsProvider', 'Number format exception: ', ex);
+                        Log.w("ContactsProvider", "Number format exception: ", ex);
                     }
                 }
             }
