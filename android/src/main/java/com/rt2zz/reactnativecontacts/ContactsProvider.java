@@ -273,10 +273,7 @@ public class ContactsProvider {
                         }
                     } catch (NumberFormatException ex) {
                         Log.w('ContactsProvider', 'Number format exception: ', ex);
-                        Date date = new Date(0);
-                        contact.birthday = new Contact.Birthday(date.getYear(), date.getMonth(), date.getDay());
                     }
-
                 }
             }
         }
